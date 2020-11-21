@@ -77,7 +77,6 @@ def button_coma():
     first_number = str(check_number(e.get()))
     if "." in first_number:
         pass
-
     e.delete(0, END)
     e.insert(0, first_number + '.')
 
